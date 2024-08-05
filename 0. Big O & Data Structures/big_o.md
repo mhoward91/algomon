@@ -42,7 +42,7 @@ list_average([5, 6, 7, 8, 9, 10])
 #### Constant: O(1) (note arithmatic runs in constant time)
 ---
 - The number of steps does not depend on input size
-- Hashmap lookup, array access & update, pushing & popping to/from stack
+- Hashmap lookup, array access & update, pushing & popping to/from stack, appending to end of linked list
 - Typically indicated by n > 10^9
 #### Logarithmic: O(log(n))
 ---
@@ -56,7 +56,7 @@ to get to the result, so n/2 operations are a good indicator of O(log(n)) comple
 ---
 - The number of steps depends exactly on input size
 - looping through a linear data structure a constant amount of times
-- Going through array/linked list, two pointers, tree/graph traversal, stack/queue, some greedy types
+- Going through array/linked list to find an element, two pointers, tree/graph traversal, stack/queue, some greedy types
 - printing is O(n)
 - Typically n less than 10 ^ 6
 #### O(k log(n))
